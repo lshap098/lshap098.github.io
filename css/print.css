@@ -1,0 +1,45 @@
+#contact img {
+  width: 5.3cm;
+  height: 8.04cm;
+  border: 1px solid #222;
+  float: right;
+  margin-right: 1.5em;
+}
+
+#skills, #areas {
+  float: left;
+  width: 5.3cm;
+  display: inline-block;
+}
+
+.box {
+  overflow: auto;
+}
+
+#areas {
+  margin-right: 2.0cm;
+  margin-left: 1.32cm;}
+
+* {
+    color: black;
+    background: transparent;
+    font-size: 12pts;
+    font-family: serif;
+  }
+
+  @page {
+    margin: 0.5in;
+  }
+
+  nav {
+    display: none;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+#roles,#education, #work, .box, footer {
+  position: relative;
+  top: 1in;
+}

@@ -1,0 +1,83 @@
+@import url(http://fonts.googleapis.com/css?family=Playfair+Display:700|Lora|Old+Standard+TT:700);
+
+body {
+  font-size: 14px;
+  font-family: 'Lora', serif;
+  background: url("../images/background.jpg");
+  max-width: 400px;
+  padding-left: 250px;
+}
+
+#gradient {background-image: -webkit-linear-gradient(#336666,#66cccc);
+}
+
+
+nav ul {
+  list-style-type: none;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 1em
+
+}
+
+#container {
+        background-color: #FFDBFF;
+        width: 600px;
+        margin: 0 auto 0 auto;
+        padding: 1em;
+        border: 1px solid #ccc;}
+
+
+
+h1 {
+  padding-left: 135px;
+  font-family: 'Playfair Display', serif;
+  font-size: 40px;
+  border-bottom: 1px solid #ccc;
+}
+
+h2{
+  font-family: 'Old Standard TT', serif;
+}
+
+#education{
+  border-top:1px solid #ccc;
+}
+
+
+#skills, #areas {
+  float: left;
+  width: 200px;
+  display: inline-block;
+}
+
+.box {
+  overflow: auto;
+}
+
+#areas {
+  margin-right: 75px;
+  margin-left: 50px;
+
+}
+
+footer {
+  clear:both;
+}
+
+
+#contact img {
+  width: 200px;
+  height: 304px;
+  border: 1px solid #222;
+  float: right;
+  margin-right: 1.5em;
+}
+
+
+footer {font-family: 'Old Standard TT', serif;
+font-size: 17px;}
+
+}
