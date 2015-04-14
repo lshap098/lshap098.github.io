@@ -3,9 +3,7 @@
 body {
   font-size: 14px;
   font-family: 'Lora', serif;
-  background: url("../images/background.jpg");
-  max-width: 400px;
-  padding-left: 250px;
+  background: url("../images/background.jpg");    
 }
 
 #gradient {background-image: -webkit-linear-gradient(#336666,#66cccc);
@@ -18,7 +16,7 @@ nav ul {
 
 nav ul li {
   display: inline-block;
-  margin-right: 0.3em
+  margin-right: 0.4em
 
 }
 
@@ -58,9 +56,7 @@ h2{
 }
 
 #areas {
-  margin-right: 75px;
-  margin-left: 50px;
-
+  width: 50%;
 }
 
 footer {
