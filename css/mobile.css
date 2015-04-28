@@ -70,6 +70,8 @@ h1{
   #text img {
       height: auto;
       width: 275px;
+      position: relative;
+      left: 1px;
       padding-right: 0;
       margin-left: 0;
       float: none;}
