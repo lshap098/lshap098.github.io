@@ -3,7 +3,8 @@
 body {
   font-size: 14px;
   font-family: 'Lora', serif;
-  background: url("../images/background.jpg");    
+  background: url("../images/background.jpg");
+  background-position: fixed;
 }
 
 #gradient {background-image: -webkit-linear-gradient(#336666,#66cccc);
@@ -21,7 +22,7 @@ nav ul li {
 }
 
 #container {
-        background-color: #FFDBFF;
+        background: rgba(255,255,255,0.6);
         width: 600px;
         margin: 0 auto 0 auto;
         padding: 1em;
@@ -70,6 +71,22 @@ footer {
   border: 1px solid #222;
   float: right;
   margin-right: 1.5em;
+}
+
+a,
+
+a:link{
+  color: rgb(22,23,25);
+}
+
+a:visited {
+  color: rgb(109,109,109);
+  text-decoration: none;}
+
+a:hover,
+a:focus{
+  color: rgb(109,109,109);
+  transition: color .30s ease-in;
 }
 
 

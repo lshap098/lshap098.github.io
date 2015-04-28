@@ -1,0 +1,152 @@
+@media (max-width: 320px) {
+  #mobile{
+    display: block;
+    margin-left: 1em;
+  }
+
+  #container{
+    display: none;
+  }
+
+body{
+  font-size: 18px;
+  line-height:1.5;
+}
+
+header{
+  margin-top: 0;
+  margin-left: 1em;
+  padding-top: 0;
+
+}
+
+h1{
+  position: static;
+  font-size: 30px;
+}
+
+
+  nav{
+    position: static;
+    top: 0;
+    width: 320px;
+    padding-left: 0;
+    margin-left: 1em;
+    border-bottom: 0;
+    background: white;
+    z-index:1;
+  }
+
+#laura{
+    width: 170px;
+    position: absolute;
+    bottom: 0%;
+    right: 15%;
+    }
+
+  nav ul li {
+      display: inline-block;
+      border-right: 0;
+      margin-right: 3em;
+      padding-right: .7em;
+      margin-bottom: 1em;
+
+  }
+
+  nav ul li:last-child {
+    display: none;
+  }
+
+  #text{
+      margin-left: 1.2em;
+      position: absolute;
+      left: 0;
+    }
+
+  #text p{
+    width: 275px;
+  }
+
+  #text img {
+      height: auto;
+      width: 275px;
+      padding-right: 0;
+      margin-left: 0;
+      float: none;}
+
+h2{
+
+  position: absolute;
+  left: 0px;
+  margin-left:.6em;
+      }
+
+.headshots{
+  width: 120px;
+  height: 120px;
+  position: relative;
+  left: 0px;
+  margin-left:1em;
+  margin-right:1px;
+  padding-top: 80px;
+      }
+
+
+.performances{
+  width: 120px;
+  height: 120px;
+  position: relative;
+  left: 0px;
+  margin-left: 1em;
+  margin-right: 1px;
+  padding-top: 80px;
+      }
+
+.video1, .video2{
+  display: none;
+  }
+
+
+
+
+  #contact{
+    position: absolute;
+    left: 0px;
+    font-size: 20px;
+    margin-left: 1em;
+}
+
+main#resume{
+  width: 300px;
+}
+
+main#resume h2{
+  font-size: 125%;
+
+}
+
+main#resume table{
+  position: relative;
+  width: 300px;
+  left: 1em;
+  font-size: 11px;
+}
+
+main#resume ul,
+main#resume ul ul{
+  position: relative;
+  left: 0;
+  padding-top:4em;
+
+}
+
+main#resume ul ul{
+  padding-top: 0;
+}
+
+.mobile-vid{
+  padding-top:3em;
+  margin-left: 1em;
+}
+
+}
