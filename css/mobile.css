@@ -38,7 +38,7 @@ h1{
   }
 
 #laura{
-    width: 170px;
+    width: 90px;
     position: absolute;
     bottom: 0%;
     right: 15%;
@@ -144,9 +144,8 @@ main#resume ul ul{
   padding-top: 0;
 }
 
-.mobile-vid{
-  padding-top:3em;
-  margin-left: 1em;
+#vid-mobile{
+  display: none;
 }
 
 }
